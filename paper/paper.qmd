@@ -1,15 +1,14 @@
 ---
-title: "My title"
-subtitle: "My subtitle if needed"
+title: "Canadian_Grocery_Coffee_Price_Analysis"
 author: 
-  - First author
-  - Another author
-thanks: "Code and data are available at: [https://github.com/RohanAlexander/starter_folder](https://github.com/RohanAlexander/starter_folder)."
+  - Jin Zhang
+thanks: "Code and data are available at: https://github.com/KrystalJin1/Canadian_Grocery_Coffee_Price.git "
 date: today
 date-format: long
 abstract: "First sentence. Second sentence. Third sentence. Fourth sentence."
 format: pdf
 number-sections: true
+toc: true
 bibliography: references.bib
 ---
 
@@ -20,8 +19,18 @@ bibliography: references.bib
 
 library(tidyverse)
 library(palmerpenguins)
+library(knitr)
+library(arrow)
+library(ggplot2)
+library(dplyr)
+library(here)
+library(kableExtra)
+library(gridExtra)
+library(modelsummary)
+library(rstanarm)
 ```
 
+\newpage
 
 # Introduction
 
@@ -44,56 +53,114 @@ Telegraphing paragraph: The remainder of this paper is structured as follows. @s
 
 ## Overview
 
-We use the statistical programming language R [@citeR].... Our data [@shelter].... Following @tellingstories, we consider...
+Price of each month's coffee of different vendors data is provided by[@citedata]. This dataset records detailed sales about fast-moving consumer goods (FMCG) sold by various vendors, including volia, T&T, Loblaws, SaveOnFoods, Galleria, Metro, NoFrills and Walmart. It is also includes product-level details, such as the product name, current price, historical price (old price), and the corresponding units and price per unit. The data also captures time-specific observations(2024-2-28 to 2024-6-22), with timestamps (nowtime) that can be used to analyze trends over days or months.
 
-Overview text
+In order to simulate data, test simulated data, clean data, test cleaned data, exploratory data analysis and model data, we used R programming language [@citeR] to analyze the data and plot the graphs. Specific libraries that assisted the analysis include `tidyverse` [@tidyverse], `palmerpenguins` [@citepalmerpenguins], `knitr` [@citeknitr], `arrow` [@citearrow], `ggplot2` [@citeggplot2],  `dplyr` [@citedplyrx],  `here` [@citehere], `kableExtra` [@citekableExtra], `gridExtra`[@citegridExtra], `modelsummary`[@citemodelsummary], `rstanarm`[@citerstanarm].
+
+The inspiration for my data processing came from my desire to study what factors would affect the current price of coffee products from two vendors in different regions of Canada, such as the current price of coffee products from two vendors, Metro and SaveOnFoods. The following variables are the data I selected after cleaning the data:
+
+- vendor: The retailer selling the product in Canada.
+- old_price: The historical price of the product, showing previous pricing or discounts.
+- product_name: The specific product being sold, providing product-level insights.
+- current_price: The price of the product at the time of observation.
+
+New variable extracted and transformed from raw data:
+
+- month: The month of data collection, extracted from `nowtime`.
+
+Since the variable nowtime only records 4 months, it is considered a lack of Long-Term Trends, which means it's difficult to identify long-term pricing or demand patterns by using short data periods. So I only extracted a new variable—month from date of nowtime, which can simplify temporal analysis and identify trends, such as seasonal price changes or demand patterns. It allows grouping data for monthly aggregation and supporting seasonality-focused insights or forecasting models.
+
+To provide an preview of the coffee pricing with all potential factors that might affect it. Here, @tbl-sample-analysis-data simply reveals the variation between current price and old price in June for Metro's coffee products.
+
+```{r}
+#| label: tbl-sample-analysis-data
+#| tbl-cap: "Sample of Analysis Data Showing Products Sold by Both Vendors"
+#| echo: false
+#| warning: false
+#| message: false
+
+# Load the analysis data
+analysis_data <- read_parquet(here("data", "02-analysis_data", "analysis_data.parquet"))
+
+# Select the first 10 rows
+preview_table <- head(analysis_data, 10)
+
+# Display the table
+preview_table |>
+  kable(
+    col.names = colnames(preview_table),  # Use original column names
+    digits = 2,  # Format numeric columns with 2 decimal places
+    booktabs = TRUE,  # LaTeX-style formatting
+    align = c("l", "l", "r", "r", "c"),  # Align columns (left, right, center)
+    format.args = list(big.mark = ",")  # Add thousand separators to numbers
+  ) |>
+  kable_styling(full_width = FALSE, bootstrap_options = c("striped", "hover"))
+```
 
 ## Measurement
-	
-Some paragraphs about how we go from a phenomena in the world to an entry in the dataset.
 
-## Outcome variables
+The dataset from Hammer represents real-world retail activities, capturing product details, vendor listings, and price updates. When vendors update product information, such as pricing or availability, Hammer collects and structures this information into the dataset.
 
-Add graphs, tables and text. Use sub-sub-headings for each outcome variable or update the subheading to be singular.
+Key fields include vendor, product_name, current_price, old_price, and nowtime. The data is collected through scraping and structured to enable analysis of retail trends, pricing strategies, and market dynamics over time. Each entry serves as a snapshot of a product's presence in the market at a specific time, allowing for focused analyses, like tracking price trends for specific products (e.g., coffee).
 
+## Data Visualization
 
+```{r}
+#| label: fig-distribution-coffee-products-by-vendor
+#| fig-cap: "Monthly Distribution of Coffee Products by Vendor"
+#| message: false
+#| echo: false
+
+# set coffee data
+coffee_data <- analysis_data |>
+  filter(vendor %in% c("Metro", "SaveOnFoods")) %>%
+  count(month, vendor)
+
+# make plot
+ggplot(coffee_data, aes(x = factor(month, levels = 6:11), y = n, fill = vendor)) +
+  geom_bar(stat = "identity", position = "stack") +  
+  labs(x = "Month",
+       y = "Frequency",
+       fill = "Vendor") +
+  scale_x_discrete(labels = month.abb[6:11]) +  
+  theme_minimal() +
+  theme(axis.text.x = element_text(angle = 90, vjust = 0.5, hjust=1))
+```
+
+```{r}
+#| label: fig-coffee-price-comparison
+#| fig-cap: "Comparison of Current and Old Prices for Coffee by Vendor"
+#| message: false
+#| echo: false
+
+analysis_data |>
+  ggplot(aes(x = old_price, y = current_price, color = vendor)) +
+  geom_point() +
+  theme_minimal() +
+  labs(x = "Old Price",  y = "Current Price", color = "Vendor") +
+  theme(legend.position = "bottom") +
+  scale_color_brewer(palette = "Set1")
+
+```
 
 Some of our data is of penguins (@fig-bills), from @palmerpenguins.
 
 ```{r}
-#| label: fig-bills
-#| fig-cap: Bills of penguins
+#| label: tbl-summary
+#| tbl-cap: "Statistics summary of the cleaned coffee pruducts pricing"
+#| message: false
 #| echo: false
 
-ggplot(penguins, aes(x = island, fill = species)) +
-  geom_bar(alpha = 0.8) +
-  scale_fill_manual(values = c("darkorange","purple","cyan4"),
-                    guide = "none") +
-  theme_minimal() +
-  facet_wrap(~species, ncol = 1) +
-  coord_flip()
+analysis_data |>
+  summary() |>
+  kable(align = "c") %>%
+  kable_styling(font_size = 12)
 ```
 
 Talk more about it.
 
 And also planes (@fig-planes). (You can change the height and width, but don't worry about doing that until you have finished every other aspect of the paper - Quarto will try to make it look nice and the defaults usually work well once you have enough text.)
 
-```{r}
-#| label: fig-planes
-#| fig-cap: Relationship between wing length and width
-#| echo: false
-#| warning: false
-#| message: false
-
-analysis_data <- read_csv(here::here("data/02-analysis_data/analysis_data.csv"))
-
-analysis_data |> 
-  ggplot(aes(x = width, y = length)) +
-  geom_point(alpha = 0.8) +
-  theme_minimal() +
-  labs(x = "Wing width (mm)",
-       y = "Wing length (mm)")
-```
 
 Talk way more about it. 
 
@@ -112,67 +179,46 @@ Use sub-sub-headings for each outcome variable and feel free to combine a few in
 
 # Model
 
-The goal of our modelling strategy is twofold. Firstly,...
-
-Here we briefly describe the Bayesian analysis model used to investigate... Background details and diagnostics are included in [Appendix -@sec-model-details].
+The goal of our Bayesian multiple linear regression is to investigate the factors that influence the current price of coffee in our dataset. Specifically, we aim to understand how historical pricing, vendor differences, and seasonal patterns affect current coffee prices.
 
 ## Model set-up
+Define $y_i$ as the current price of coffee for the $i$-th observation in the dataset. The predictors include:
 
-Define $y_i$ as the number of seconds that the plane remained aloft. Then $\beta_i$ is the wing width and $\gamma_i$ is the wing length, both measured in millimeters.  
+- $x_{1i}$, the old price of the coffee,
+- $x_{2i}$, dummy variable for the vendor, where:\
+$x_{2i}$ = 1: Vendor is "SaveOnFoods"; 
+$x_{2i}$ = 0: Vendor is "Metro",
+- $x_{3i}$, the numeric month variable.
+
+The model is formulated as follows:
 
 \begin{align} 
-y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma) \\
-\mu_i &= \alpha + \beta_i + \gamma_i\\
-\alpha &\sim \mbox{Normal}(0, 2.5) \\
-\beta &\sim \mbox{Normal}(0, 2.5) \\
-\gamma &\sim \mbox{Normal}(0, 2.5) \\
-\sigma &\sim \mbox{Exponential}(1)
+y_i|\mu_i, \sigma &\sim \mbox{Normal}(\mu_i, \sigma), \\
+\mu_i &= \alpha + \beta_1 \cdot x_{1i} + \beta_2 \cdot x_{2i} + \beta_3 \cdot x_{3i}, \\
+\alpha &\sim \mbox{Normal}(0, 2.5), \\
+\beta_1 &\sim \mbox{Normal}(0, 2.5), \\ 
+\beta_2 &\sim \mbox{Normal}(0, 2.5), \\
+\beta_3 &\sim \mbox{Normal}(0, 2.5), \\
+\sigma &\sim \mbox{Exponential}(1).
 \end{align}
 
-We run the model in R [@citeR] using the `rstanarm` package of @rstanarm. We use the default priors from `rstanarm`.
+
+This model describes the relationship between the current price of coffee $\left(y_i\right)$ and three predictors: the old price of coffee $\left(x_{1 i}\right)$, a categorical vendor variable $\left(x_{2 i}\right)$ indicating whether the vendor is "Metro" or "SaveOnFoods," and a numeric variable for the month $\left(x_{3 i}\right)$. The response variable $\left(y_i\right)$ is modeled as normally distributed with mean $\mu_i$ and standard deviation $\sigma$. The mean $\mu_i$ is defined as a linear combination of these predictors, with coefficients $\beta_1, \beta_2$, and $\beta_3$, and an intercept $\alpha$. Prior distributions for the parameters are specified, including normal priors for $\alpha$ and the coefficients, and an exponential prior for $\sigma$. Intercept $\alpha$ represents the baseline mean current price for Metro if $x_{2i}$ = 1; otherwise when $x_{2i}$ = 0, it represents the mean current price for SaveOnFoods. Also, when old price and month is equal to 0, the intercept is not meaningful. Coefficient $\beta_1$ captures how changes in the old price affect the current price. Coefficient $\beta_2$ measures the difference in the mean coffee price between SaveOnFoods ($x_{2i}$ = 1) and Metro ($x_{2i}$ = 0). Coefficient $\beta_3$ reflects how the month influences current pricing, potentially capturing seasonal effects. 
+
+
+To implement this Bayesian model, we use the `rstanarm` package [@rstanarm] in `R` [@citeR], with its default priors..
 
 
 ### Model justification
 
-We expect a positive relationship between the size of the wings and time spent aloft. In particular...
+The Bayesian Multiple Linear Regression (MLR) model is a suitable choice for analyzing the relationship between current_price (the dependent variable) and the predictors in the dataset. The dependent variable is continuous, and the Bayesian framework assumes a normal distribution for the response, which aligns well with the nature of coffee prices. This model captures the linear relationships between old_price (continuous), vendor (categorical, represented as a dummy variable), and month (numeric). These predictors are assumed to have additive effects on the response, which fits the linear regression framework. Logistic regression is used when the outcome variable is binary (e.g. 0 or 1). However, in our dataset, the dependent variable, current_price, is continuous. Since logistic regression cannot model continuous outcomes, it is unsuitable for this analysis. Also, poisson or negative binomial regression is typically applied when the response variable represents count data (e.g., the number of events occurring in a fixed period). current_price does not represent counts but rather continuous pricing data. Thus, these models do not align with the nature of the dependent variable.
 
-We can use maths by including latex between dollar signs, for instance $\theta$.
+### Model validation
 
 
 # Results
 
 Our results are summarized in @tbl-modelresults.
-
-```{r}
-#| echo: false
-#| eval: true
-#| warning: false
-#| message: false
-
-library(rstanarm)
-
-first_model <-
-  readRDS(file = here::here("models/first_model.rds"))
-```
-
-```{r}
-#| echo: false
-#| eval: true
-#| label: tbl-modelresults
-#| tbl-cap: "Explanatory models of flight time based on wing width and wing length"
-#| warning: false
-
-modelsummary::modelsummary(
-  list(
-    "First model" = first_model
-  ),
-  statistic = "mad",
-  fmt = 2
-)
-```
-
-
-
 
 # Discussion
 
@@ -186,6 +232,9 @@ Please don't use these as sub-heading labels - change them to be what your point
 
 ## Third discussion point
 
+###Limitation
+lack of month: only have data of coffee prouduct pricing in June to November. 展示不出来缺少几个月的data
+
 ## Weaknesses and next steps
 
 Weaknesses and next steps should also be included.
@@ -196,6 +245,49 @@ Weaknesses and next steps should also be included.
 
 # Appendix {-}
 
+## Model details
+
+```{r}
+#| label: tbl-model-summary
+#| fig-cap: "Model summary of Coffee product pricing"
+#| eval: true
+#| echo: false
+#| warning: false
+#| message: false
+
+Coffee_product_pricing <-
+  readRDS(file = here::here("models/Coffee_product_pricing.rds"))
+
+# Generate model summary table
+modelsummary(
+  list(
+    "Coffee_product_pricing" = Coffee_product_pricing
+  ),
+  fmt = 2
+)
+
+```
+
+```{r}
+#| eval: true
+#| echo: false
+#| message: false
+#| warning: false
+#| label: fig-ppcheck-and-posterior-vs-prior
+#| layout-ncol: 2
+#| fig-cap: "Examining how the model fits, and is affected by, the data"
+#| fig-subcap: ["Posterior prediction check", "Comparing the posterior with the prior"]
+
+pp_check(Coffee_product_pricing) +
+  theme_classic() +
+  theme(legend.position = "bottom")
+
+posterior_vs_prior(Coffee_product_pricing) +
+  theme_minimal() +
+  scale_color_brewer(palette = "Set1") +
+  theme(legend.position = "bottom") +
+  coord_flip()
+```
 
 # Additional data details
 
@@ -207,26 +299,7 @@ In @fig-ppcheckandposteriorvsprior-1 we implement a posterior predictive check. 
 
 In @fig-ppcheckandposteriorvsprior-2 we compare the posterior with the prior. This shows... 
 
-```{r}
-#| eval: true
-#| echo: false
-#| message: false
-#| warning: false
-#| label: fig-ppcheckandposteriorvsprior
-#| layout-ncol: 2
-#| fig-cap: "Examining how the model fits, and is affected by, the data"
-#| fig-subcap: ["Posterior prediction check", "Comparing the posterior with the prior"]
 
-pp_check(first_model) +
-  theme_classic() +
-  theme(legend.position = "bottom")
-
-posterior_vs_prior(first_model) +
-  theme_minimal() +
-  scale_color_brewer(palette = "Set1") +
-  theme(legend.position = "bottom") +
-  coord_flip()
-```
 
 ## Diagnostics
 
@@ -235,18 +308,18 @@ posterior_vs_prior(first_model) +
 @fig-stanareyouokay-2 is a Rhat plot. It shows... This suggests...
 
 ```{r}
-#| echo: false
-#| eval: true
-#| message: false
-#| warning: false
-#| label: fig-stanareyouokay
-#| fig-cap: "Checking the convergence of the MCMC algorithm"
-#| fig-subcap: ["Trace plot", "Rhat plot"]
+#| label: fig-trace-and-rhat-plot
+#| fig-cap: "Trace and R-hat plot"
+#| fig-subcap: ["Trace plot", "Rhat"]
 #| layout-ncol: 2
+#| eval: true
+#| echo: false
+#| warning: false
+#| message: false
 
-plot(first_model, "trace")
+plot(Coffee_product_pricing, "trace")
 
-plot(first_model, "rhat")
+plot(Coffee_product_pricing, "rhat")
 ```
 
 
