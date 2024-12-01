@@ -1,152 +1,1001 @@
-division,state,party
-Division 1,Victoria,Liberal
-Division 2,New South Wales,Liberal
-Division 3,Tasmania,Liberal
-Division 4,New South Wales,Liberal
-Division 5,Queensland,Liberal
-Division 6,New South Wales,Labor
-Division 7,Victoria,Liberal
-Division 8,Western Australia,Labor
-Division 9,Western Australia,Greens
-Division 10,Queensland,Labor
-Division 11,Queensland,Labor
-Division 12,Northern Territory,Liberal
-Division 13,New South Wales,Labor
-Division 14,Western Australia,Labor
-Division 15,Western Australia,National
-Division 16,Victoria,Liberal
-Division 17,South Australia,Liberal
-Division 18,Victoria,Liberal
-Division 19,Western Australia,Labor
-Division 20,South Australia,Labor
-Division 21,New South Wales,Liberal
-Division 22,Queensland,Greens
-Division 23,New South Wales,Liberal
-Division 24,New South Wales,Liberal
-Division 25,Queensland,Labor
-Division 26,Victoria,National
-Division 27,New South Wales,Liberal
-Division 28,Queensland,Liberal
-Division 29,Tasmania,Liberal
-Division 30,South Australia,Liberal
-Division 31,New South Wales,Liberal
-Division 32,Victoria,Labor
-Division 33,Tasmania,Liberal
-Division 34,New South Wales,Liberal
-Division 35,Western Australia,Labor
-Division 36,New South Wales,Liberal
-Division 37,Tasmania,Greens
-Division 38,Tasmania,Labor
-Division 39,Victoria,Greens
-Division 40,South Australia,Labor
-Division 41,New South Wales,Other
-Division 42,New South Wales,Other
-Division 43,Tasmania,Labor
-Division 44,Tasmania,National
-Division 45,Queensland,Liberal
-Division 46,Australian Capital Territory,Other
-Division 47,Queensland,Labor
-Division 48,Queensland,Other
-Division 49,South Australia,Liberal
-Division 50,Victoria,National
-Division 51,South Australia,Liberal
-Division 52,Victoria,Labor
-Division 53,South Australia,National
-Division 54,Queensland,Liberal
-Division 55,Queensland,Labor
-Division 56,South Australia,Liberal
-Division 57,New South Wales,Other
-Division 58,Northern Territory,Liberal
-Division 59,New South Wales,Labor
-Division 60,Western Australia,Labor
-Division 61,New South Wales,Liberal
-Division 62,South Australia,Liberal
-Division 63,Queensland,Labor
-Division 64,Tasmania,Labor
-Division 65,South Australia,Labor
-Division 66,Victoria,Labor
-Division 67,Queensland,Liberal
-Division 68,Queensland,Liberal
-Division 69,Tasmania,Labor
-Division 70,South Australia,National
-Division 71,Australian Capital Territory,Labor
-Division 72,Western Australia,Labor
-Division 73,Queensland,National
-Division 74,Victoria,Labor
-Division 75,Western Australia,Labor
-Division 76,Tasmania,Labor
-Division 77,Queensland,Liberal
-Division 78,Western Australia,Liberal
-Division 79,Queensland,Labor
-Division 80,Queensland,Liberal
-Division 81,Victoria,Labor
-Division 82,New South Wales,Liberal
-Division 83,Victoria,Liberal
-Division 84,Queensland,National
-Division 85,Western Australia,Liberal
-Division 86,New South Wales,Labor
-Division 87,Queensland,Liberal
-Division 88,New South Wales,Liberal
-Division 89,Tasmania,Liberal
-Division 90,South Australia,Labor
-Division 91,Victoria,Liberal
-Division 92,New South Wales,Labor
-Division 93,Tasmania,Labor
-Division 94,South Australia,Labor
-Division 95,Victoria,Liberal
-Division 96,Victoria,Labor
-Division 97,Western Australia,Liberal
-Division 98,Queensland,Liberal
-Division 99,South Australia,Liberal
-Division 100,New South Wales,Labor
-Division 101,South Australia,Labor
-Division 102,New South Wales,Labor
-Division 103,Victoria,Labor
-Division 104,Victoria,Labor
-Division 105,South Australia,Other
-Division 106,Western Australia,Labor
-Division 107,Tasmania,Liberal
-Division 108,Victoria,Labor
-Division 109,Queensland,Liberal
-Division 110,Victoria,Labor
-Division 111,Australian Capital Territory,Labor
-Division 112,Victoria,Liberal
-Division 113,Victoria,Liberal
-Division 114,Victoria,Liberal
-Division 115,Tasmania,Labor
-Division 116,Victoria,Labor
-Division 117,New South Wales,Labor
-Division 118,Victoria,Labor
-Division 119,Victoria,Greens
-Division 120,Northern Territory,Labor
-Division 121,South Australia,Liberal
-Division 122,New South Wales,Liberal
-Division 123,New South Wales,Labor
-Division 124,New South Wales,Liberal
-Division 125,New South Wales,National
-Division 126,New South Wales,Labor
-Division 127,Queensland,Labor
-Division 128,New South Wales,Other
-Division 129,Queensland,Labor
-Division 130,Australian Capital Territory,Liberal
-Division 131,Tasmania,Greens
-Division 132,New South Wales,National
-Division 133,New South Wales,Labor
-Division 134,Northern Territory,Labor
-Division 135,South Australia,National
-Division 136,Victoria,Labor
-Division 137,Tasmania,National
-Division 138,South Australia,Liberal
-Division 139,New South Wales,Labor
-Division 140,Victoria,Other
-Division 141,Queensland,Greens
-Division 142,Victoria,National
-Division 143,Western Australia,Labor
-Division 144,Victoria,Labor
-Division 145,Queensland,Liberal
-Division 146,Tasmania,Liberal
-Division 147,South Australia,Liberal
-Division 148,Victoria,Labor
-Division 149,New South Wales,National
-Division 150,New South Wales,Labor
-Division 151,Victoria,Liberal
+Vendors,current_price,old_price,month,coffee_product
+SaveOnFoods,305.006,849.142,1,Dark Roast Coffee
+Metro,190.388,123.137,6,Espresso Coffee
+Metro,224.903,422.438,4,Caramel Coffee
+SaveOnFoods,106.145,481.223,9,Decaf Coffee
+Metro,257.42,406.147,3,Caramel Coffee
+Metro,305.626,187.879,4,Caramel Coffee
+Metro,34.858,58.382,11,Dark Roast Coffee
+SaveOnFoods,400.48,166.008,1,Decaf Coffee
+SaveOnFoods,267.134,477.21,6,Caramel Coffee
+SaveOnFoods,10.524,209.52,12,Dark Roast Coffee
+SaveOnFoods,180.27,671.501,11,Vanilla Coffee
+Metro,234.394,610.191,7,Decaf Coffee
+Metro,147.619,503.896,10,Espresso Coffee
+Metro,328.634,844.773,3,Vanilla Coffee
+Metro,284.882,103.989,1,Dark Roast Coffee
+Metro,26.736,314.646,10,Dark Roast Coffee
+SaveOnFoods,309.009,348.309,11,Espresso Coffee
+Metro,323.232,384.225,1,Decaf Coffee
+Metro,130.003,121.674,6,Vanilla Coffee
+SaveOnFoods,114.005,937.044,5,Dark Roast Coffee
+SaveOnFoods,470.999,542.58,9,Dark Roast Coffee
+Metro,454.41,414.409,8,Dark Roast Coffee
+SaveOnFoods,123.101,390.445,9,Dark Roast Coffee
+Metro,359.786,883.861,12,Dark Roast Coffee
+SaveOnFoods,345.185,625.583,10,Caramel Coffee
+Metro,246.514,332.678,11,Vanilla Coffee
+Metro,491.901,537.708,1,Dark Roast Coffee
+Metro,214.264,9.312,12,Caramel Coffee
+SaveOnFoods,298.676,835.13,8,Dark Roast Coffee
+Metro,320.917,685.374,4,Dark Roast Coffee
+SaveOnFoods,263.113,37.72,6,Espresso Coffee
+SaveOnFoods,417.366,958.236,9,Decaf Coffee
+SaveOnFoods,101.782,351.452,3,Espresso Coffee
+Metro,32.885,294.789,5,Espresso Coffee
+SaveOnFoods,384.741,898.991,9,Espresso Coffee
+SaveOnFoods,179.251,436.449,6,Dark Roast Coffee
+Metro,499.041,552.302,10,Espresso Coffee
+Metro,178.516,55.514,12,Espresso Coffee
+SaveOnFoods,423.455,870.457,11,Dark Roast Coffee
+SaveOnFoods,73.221,377.801,2,Dark Roast Coffee
+SaveOnFoods,243.822,337.261,11,Decaf Coffee
+Metro,288.939,935.705,12,Caramel Coffee
+Metro,391.81,35.841,1,Decaf Coffee
+Metro,248.474,132.21,8,Caramel Coffee
+Metro,448.744,503.784,7,Espresso Coffee
+SaveOnFoods,233.417,273.669,6,Dark Roast Coffee
+Metro,497.502,490.149,10,Caramel Coffee
+Metro,211.866,476.566,3,Decaf Coffee
+SaveOnFoods,354.568,858.541,2,Dark Roast Coffee
+SaveOnFoods,214.167,126.445,9,Vanilla Coffee
+SaveOnFoods,89.938,273.897,6,Caramel Coffee
+Metro,440.762,693.133,7,Vanilla Coffee
+SaveOnFoods,447.157,75.109,1,Caramel Coffee
+SaveOnFoods,383.813,579.327,9,Decaf Coffee
+SaveOnFoods,176.62,719.453,10,Dark Roast Coffee
+Metro,85.957,201.858,4,Espresso Coffee
+Metro,5.811,47.471,11,Vanilla Coffee
+Metro,383.89,37.174,11,Caramel Coffee
+SaveOnFoods,327.223,449.07,7,Espresso Coffee
+Metro,265.095,882.013,8,Vanilla Coffee
+SaveOnFoods,49.736,888.755,10,Dark Roast Coffee
+SaveOnFoods,354.697,786.086,4,Vanilla Coffee
+Metro,379.342,633.42,9,Decaf Coffee
+SaveOnFoods,89.937,574.855,12,Decaf Coffee
+Metro,221.974,723.197,1,Vanilla Coffee
+Metro,459.707,708.524,8,Caramel Coffee
+SaveOnFoods,96.476,787.563,2,Espresso Coffee
+Metro,127.601,231.487,10,Espresso Coffee
+Metro,172.165,700.597,8,Espresso Coffee
+Metro,92.658,816.405,10,Caramel Coffee
+SaveOnFoods,230.008,249.137,1,Dark Roast Coffee
+SaveOnFoods,177.792,364.598,6,Espresso Coffee
+Metro,160.421,54.851,5,Decaf Coffee
+SaveOnFoods,268.074,662.361,4,Vanilla Coffee
+SaveOnFoods,219.053,625.989,2,Espresso Coffee
+SaveOnFoods,36.903,262.533,7,Caramel Coffee
+Metro,415.052,807.846,1,Dark Roast Coffee
+Metro,201.504,948.681,9,Decaf Coffee
+SaveOnFoods,265.921,241.42,3,Decaf Coffee
+Metro,405.808,348.178,10,Dark Roast Coffee
+SaveOnFoods,272.398,664.142,4,Caramel Coffee
+Metro,193.438,213.43,5,Espresso Coffee
+Metro,454.174,914.09,1,Decaf Coffee
+SaveOnFoods,451.63,599.02,12,Espresso Coffee
+Metro,5.058,374.061,3,Vanilla Coffee
+SaveOnFoods,448.928,591.215,9,Vanilla Coffee
+Metro,63.687,79.958,4,Decaf Coffee
+SaveOnFoods,240.697,706.223,5,Vanilla Coffee
+Metro,356.888,554.286,11,Dark Roast Coffee
+Metro,45.513,684.455,5,Espresso Coffee
+Metro,71.909,676.4,12,Decaf Coffee
+SaveOnFoods,465.35,883.213,9,Espresso Coffee
+SaveOnFoods,21.967,333.929,2,Dark Roast Coffee
+SaveOnFoods,463.586,126.404,12,Espresso Coffee
+SaveOnFoods,242.207,785.188,9,Decaf Coffee
+Metro,74.88,382.153,3,Caramel Coffee
+Metro,116.859,917.566,6,Decaf Coffee
+SaveOnFoods,187.682,552.259,6,Decaf Coffee
+Metro,94.564,740.849,10,Espresso Coffee
+SaveOnFoods,255.579,306.535,8,Dark Roast Coffee
+SaveOnFoods,253.754,256.502,5,Decaf Coffee
+Metro,78.592,426.92,3,Decaf Coffee
+Metro,264.026,452.605,11,Espresso Coffee
+SaveOnFoods,331.774,143.125,11,Decaf Coffee
+SaveOnFoods,259.92,769.883,10,Dark Roast Coffee
+SaveOnFoods,374.384,130.682,4,Decaf Coffee
+SaveOnFoods,381.319,170.083,6,Dark Roast Coffee
+SaveOnFoods,202.356,372.064,12,Dark Roast Coffee
+Metro,328.48,974.517,2,Dark Roast Coffee
+Metro,130.798,720.719,4,Caramel Coffee
+Metro,142.464,423.931,3,Vanilla Coffee
+Metro,61.238,236.472,5,Decaf Coffee
+SaveOnFoods,172.281,845.457,6,Decaf Coffee
+SaveOnFoods,255.088,483.639,5,Decaf Coffee
+SaveOnFoods,274.079,439.752,12,Espresso Coffee
+Metro,460.131,494.571,5,Dark Roast Coffee
+SaveOnFoods,379.787,273.003,8,Caramel Coffee
+Metro,284.483,773.538,11,Caramel Coffee
+Metro,156.181,588.109,3,Decaf Coffee
+SaveOnFoods,93.807,129.762,10,Decaf Coffee
+Metro,329.887,899.304,9,Espresso Coffee
+Metro,294.52,626.289,11,Dark Roast Coffee
+SaveOnFoods,374.151,872.932,6,Decaf Coffee
+Metro,424.29,215.961,11,Espresso Coffee
+SaveOnFoods,255.668,11.301,3,Caramel Coffee
+SaveOnFoods,112.501,104.517,8,Caramel Coffee
+SaveOnFoods,112.012,548.79,4,Decaf Coffee
+Metro,200.747,30.224,8,Dark Roast Coffee
+SaveOnFoods,307.66,63.917,9,Espresso Coffee
+Metro,392.96,334.672,7,Decaf Coffee
+Metro,80.508,124.456,10,Espresso Coffee
+SaveOnFoods,425.995,753.386,3,Decaf Coffee
+SaveOnFoods,266.766,815.239,9,Caramel Coffee
+Metro,498.607,658.989,11,Dark Roast Coffee
+SaveOnFoods,168.77,651.624,3,Decaf Coffee
+SaveOnFoods,307.615,40.949,3,Caramel Coffee
+SaveOnFoods,265.374,873.066,6,Espresso Coffee
+Metro,451.766,87.071,6,Dark Roast Coffee
+SaveOnFoods,324.593,673.832,1,Caramel Coffee
+SaveOnFoods,260.629,20.742,5,Espresso Coffee
+SaveOnFoods,285.563,127.733,6,Decaf Coffee
+Metro,111.759,235.374,7,Dark Roast Coffee
+SaveOnFoods,352.101,448.87,5,Caramel Coffee
+Metro,370.417,116.081,2,Caramel Coffee
+SaveOnFoods,135.375,175.655,9,Decaf Coffee
+SaveOnFoods,313.082,131.226,2,Dark Roast Coffee
+Metro,223.636,643.041,12,Decaf Coffee
+SaveOnFoods,19.771,604.548,10,Dark Roast Coffee
+Metro,186.914,681.877,6,Decaf Coffee
+Metro,401.714,854.169,2,Espresso Coffee
+Metro,244.044,135.434,10,Decaf Coffee
+Metro,52.521,893.366,1,Dark Roast Coffee
+SaveOnFoods,334.593,0.552,8,Dark Roast Coffee
+SaveOnFoods,54.007,678.926,8,Caramel Coffee
+Metro,414.336,276.167,4,Vanilla Coffee
+SaveOnFoods,423.239,270.235,2,Caramel Coffee
+SaveOnFoods,285.543,929.894,10,Caramel Coffee
+SaveOnFoods,92.338,412.362,5,Caramel Coffee
+Metro,346.977,172.185,4,Vanilla Coffee
+Metro,368.271,331.016,5,Decaf Coffee
+SaveOnFoods,4.219,51.408,11,Vanilla Coffee
+SaveOnFoods,476.578,474.776,10,Vanilla Coffee
+SaveOnFoods,91.428,840.807,3,Caramel Coffee
+Metro,113.802,645.167,6,Espresso Coffee
+Metro,96.46,113.378,8,Espresso Coffee
+SaveOnFoods,277.382,17.475,5,Vanilla Coffee
+Metro,298.094,510.19,2,Espresso Coffee
+Metro,229.427,820.567,8,Dark Roast Coffee
+SaveOnFoods,364.266,679.7,8,Espresso Coffee
+SaveOnFoods,7.912,599.259,5,Decaf Coffee
+SaveOnFoods,210.83,507.225,8,Espresso Coffee
+SaveOnFoods,31.382,549.487,1,Caramel Coffee
+Metro,20.437,753.666,1,Vanilla Coffee
+SaveOnFoods,336.145,193.951,10,Dark Roast Coffee
+Metro,293.598,910.62,3,Espresso Coffee
+Metro,470.976,515.668,5,Vanilla Coffee
+SaveOnFoods,384.333,123.977,8,Dark Roast Coffee
+Metro,135.436,90.837,9,Dark Roast Coffee
+Metro,328.306,742.305,4,Vanilla Coffee
+Metro,354.468,422.689,11,Espresso Coffee
+SaveOnFoods,217.192,970.055,3,Vanilla Coffee
+Metro,121.097,518.51,4,Decaf Coffee
+SaveOnFoods,157.296,906.28,10,Caramel Coffee
+SaveOnFoods,472.206,527.222,2,Decaf Coffee
+SaveOnFoods,233.239,284.952,2,Vanilla Coffee
+SaveOnFoods,48.811,605.8,1,Dark Roast Coffee
+SaveOnFoods,467.305,276.353,7,Vanilla Coffee
+Metro,239.456,459.709,1,Dark Roast Coffee
+Metro,403.286,631.77,2,Espresso Coffee
+SaveOnFoods,111.356,312.347,5,Vanilla Coffee
+Metro,208.791,984.645,5,Decaf Coffee
+Metro,487.489,552.545,7,Decaf Coffee
+Metro,229.275,994.641,2,Caramel Coffee
+Metro,317.677,535.984,9,Vanilla Coffee
+SaveOnFoods,327.305,406.779,10,Decaf Coffee
+SaveOnFoods,233.442,348.581,4,Caramel Coffee
+Metro,205.71,960.363,5,Dark Roast Coffee
+SaveOnFoods,461.494,864.693,3,Caramel Coffee
+Metro,15.913,485.036,9,Decaf Coffee
+Metro,27.308,951.505,12,Caramel Coffee
+Metro,349.176,703.602,5,Espresso Coffee
+Metro,92.381,886.044,12,Dark Roast Coffee
+Metro,123.709,748.339,6,Vanilla Coffee
+SaveOnFoods,219.225,235.103,1,Dark Roast Coffee
+SaveOnFoods,131.26,477.466,8,Dark Roast Coffee
+SaveOnFoods,88.427,546.028,10,Dark Roast Coffee
+SaveOnFoods,397.588,333.36,1,Vanilla Coffee
+SaveOnFoods,117.766,44.839,1,Espresso Coffee
+Metro,482.65,858.388,11,Vanilla Coffee
+SaveOnFoods,84.425,830.401,7,Espresso Coffee
+SaveOnFoods,213.999,103.927,12,Decaf Coffee
+Metro,356.222,362.326,1,Vanilla Coffee
+SaveOnFoods,60.018,176.793,3,Espresso Coffee
+SaveOnFoods,260.881,365.051,2,Espresso Coffee
+SaveOnFoods,7.534,384.394,8,Decaf Coffee
+SaveOnFoods,423.277,891.01,8,Vanilla Coffee
+SaveOnFoods,365.881,798.61,9,Espresso Coffee
+Metro,282.083,8.508,8,Dark Roast Coffee
+Metro,390.57,620.543,6,Espresso Coffee
+SaveOnFoods,379.667,429.943,10,Dark Roast Coffee
+Metro,393.142,555.986,12,Caramel Coffee
+SaveOnFoods,296.764,157.385,6,Caramel Coffee
+Metro,434.704,243.919,2,Vanilla Coffee
+SaveOnFoods,389.173,439.098,4,Vanilla Coffee
+SaveOnFoods,435.141,353.601,8,Espresso Coffee
+Metro,16.971,435.257,11,Vanilla Coffee
+SaveOnFoods,263.286,409.631,10,Dark Roast Coffee
+Metro,21.198,289.032,11,Dark Roast Coffee
+Metro,449.109,443.146,8,Dark Roast Coffee
+Metro,382.407,658.085,6,Dark Roast Coffee
+SaveOnFoods,405.568,549.566,2,Espresso Coffee
+Metro,274.698,651.93,12,Vanilla Coffee
+Metro,50.387,362.085,8,Caramel Coffee
+SaveOnFoods,364.966,221.322,2,Decaf Coffee
+Metro,178.472,869.348,8,Espresso Coffee
+Metro,444.302,716.696,6,Espresso Coffee
+Metro,437.026,802.485,10,Vanilla Coffee
+SaveOnFoods,447.744,309.696,11,Caramel Coffee
+SaveOnFoods,91.143,980.131,6,Espresso Coffee
+SaveOnFoods,468.889,92.41,9,Vanilla Coffee
+Metro,63.191,768.191,2,Caramel Coffee
+Metro,384.166,724.645,3,Caramel Coffee
+Metro,144.554,26.404,10,Caramel Coffee
+SaveOnFoods,341.681,0.672,12,Espresso Coffee
+SaveOnFoods,306.637,693.883,10,Dark Roast Coffee
+Metro,173.43,571.824,3,Dark Roast Coffee
+Metro,116.878,612.572,1,Caramel Coffee
+SaveOnFoods,222.283,490.295,5,Decaf Coffee
+Metro,145.186,288.412,5,Caramel Coffee
+SaveOnFoods,418.446,324.456,10,Caramel Coffee
+SaveOnFoods,249.367,455.295,1,Espresso Coffee
+SaveOnFoods,217.628,916.743,3,Caramel Coffee
+SaveOnFoods,408.571,41.312,11,Espresso Coffee
+SaveOnFoods,189.827,511.166,3,Decaf Coffee
+SaveOnFoods,140.322,589.436,3,Vanilla Coffee
+SaveOnFoods,275.762,852.553,5,Caramel Coffee
+Metro,276.76,204.52,6,Vanilla Coffee
+Metro,172.655,176.046,6,Dark Roast Coffee
+SaveOnFoods,249.014,201.759,11,Vanilla Coffee
+Metro,175.525,445.463,3,Caramel Coffee
+Metro,410.71,182.083,11,Decaf Coffee
+SaveOnFoods,388.456,25.83,12,Decaf Coffee
+SaveOnFoods,470.46,37.088,11,Caramel Coffee
+SaveOnFoods,363.236,949.039,4,Dark Roast Coffee
+SaveOnFoods,269.048,230.075,3,Vanilla Coffee
+SaveOnFoods,161.664,453.833,2,Caramel Coffee
+SaveOnFoods,107.468,98.809,10,Dark Roast Coffee
+SaveOnFoods,246.26,577.942,10,Dark Roast Coffee
+SaveOnFoods,431.174,200.161,6,Vanilla Coffee
+SaveOnFoods,308.511,758.738,6,Vanilla Coffee
+Metro,300.626,543.262,4,Espresso Coffee
+Metro,296.92,102.202,2,Dark Roast Coffee
+Metro,380.539,27.537,10,Espresso Coffee
+SaveOnFoods,328.452,214.353,3,Caramel Coffee
+SaveOnFoods,436.838,190.173,11,Espresso Coffee
+SaveOnFoods,434.561,645.912,11,Vanilla Coffee
+Metro,452.19,885.103,8,Espresso Coffee
+Metro,379.479,214.407,11,Decaf Coffee
+Metro,193.695,196.41,7,Dark Roast Coffee
+Metro,136.959,919.364,7,Decaf Coffee
+Metro,262.71,586.735,2,Espresso Coffee
+SaveOnFoods,323.224,962.597,1,Vanilla Coffee
+SaveOnFoods,323.332,551.385,7,Caramel Coffee
+Metro,41.477,135.739,11,Dark Roast Coffee
+Metro,76.11,545.354,10,Caramel Coffee
+SaveOnFoods,334.671,417.736,3,Vanilla Coffee
+SaveOnFoods,238.471,930.409,11,Decaf Coffee
+Metro,203.328,148.158,12,Caramel Coffee
+Metro,361.381,66.218,8,Espresso Coffee
+SaveOnFoods,338.92,861.585,4,Espresso Coffee
+SaveOnFoods,309.862,774.53,8,Vanilla Coffee
+Metro,231.865,246.483,3,Decaf Coffee
+SaveOnFoods,249.134,34.043,6,Espresso Coffee
+SaveOnFoods,58.343,530.196,6,Espresso Coffee
+SaveOnFoods,12.253,678.226,8,Vanilla Coffee
+Metro,341.262,296.336,7,Caramel Coffee
+SaveOnFoods,170.855,579.094,1,Caramel Coffee
+SaveOnFoods,379.062,768.587,6,Caramel Coffee
+Metro,116.342,386.382,10,Dark Roast Coffee
+Metro,441.327,551.294,9,Espresso Coffee
+SaveOnFoods,117.996,803.297,3,Vanilla Coffee
+Metro,422.478,271.105,11,Dark Roast Coffee
+Metro,96.694,298.193,2,Decaf Coffee
+Metro,379.411,760.899,9,Vanilla Coffee
+Metro,387.898,137.264,11,Decaf Coffee
+Metro,169.11,193.734,12,Espresso Coffee
+SaveOnFoods,406.655,100.757,3,Dark Roast Coffee
+SaveOnFoods,352.024,693.568,5,Espresso Coffee
+SaveOnFoods,318.465,831.791,6,Espresso Coffee
+SaveOnFoods,121.718,414.648,7,Decaf Coffee
+SaveOnFoods,228.32,667.104,3,Caramel Coffee
+SaveOnFoods,59.817,282.98,4,Decaf Coffee
+Metro,314.899,149.642,8,Dark Roast Coffee
+Metro,470.691,492.276,12,Caramel Coffee
+SaveOnFoods,266.563,908.913,9,Decaf Coffee
+Metro,472.063,362.352,11,Decaf Coffee
+Metro,41.546,77.064,10,Vanilla Coffee
+SaveOnFoods,350.888,91.556,2,Vanilla Coffee
+SaveOnFoods,309.22,793.889,12,Vanilla Coffee
+SaveOnFoods,307.165,831.854,1,Decaf Coffee
+Metro,163.295,182.927,5,Vanilla Coffee
+SaveOnFoods,397.944,879.548,4,Caramel Coffee
+Metro,220.943,371.54,10,Espresso Coffee
+SaveOnFoods,106.065,219.036,7,Dark Roast Coffee
+Metro,234.066,97.809,6,Caramel Coffee
+Metro,78.587,871.591,12,Caramel Coffee
+SaveOnFoods,123.025,500.011,3,Espresso Coffee
+Metro,99.885,590.013,10,Vanilla Coffee
+Metro,18.067,674.309,6,Vanilla Coffee
+Metro,225.073,505.064,1,Decaf Coffee
+Metro,152.439,886.882,2,Decaf Coffee
+SaveOnFoods,89.764,397.625,4,Vanilla Coffee
+SaveOnFoods,61.249,618.505,12,Vanilla Coffee
+SaveOnFoods,334.423,753.592,4,Decaf Coffee
+SaveOnFoods,487.67,93.561,3,Espresso Coffee
+SaveOnFoods,214.056,97.79,10,Dark Roast Coffee
+SaveOnFoods,416.502,541.759,7,Espresso Coffee
+Metro,122.885,72.381,8,Vanilla Coffee
+SaveOnFoods,320.275,929.523,5,Espresso Coffee
+Metro,465.263,523.367,11,Dark Roast Coffee
+SaveOnFoods,95.589,743.598,4,Vanilla Coffee
+Metro,119.196,956.899,2,Decaf Coffee
+SaveOnFoods,71.829,757.999,6,Vanilla Coffee
+Metro,377.34,628.122,11,Dark Roast Coffee
+Metro,36.472,301.934,5,Dark Roast Coffee
+Metro,485.372,114.904,5,Decaf Coffee
+SaveOnFoods,81.664,166.9,10,Dark Roast Coffee
+SaveOnFoods,352.408,710.516,1,Vanilla Coffee
+SaveOnFoods,93.848,926.514,4,Decaf Coffee
+Metro,216.583,264.423,7,Dark Roast Coffee
+SaveOnFoods,419.653,606.98,7,Decaf Coffee
+Metro,264.559,223.608,10,Vanilla Coffee
+Metro,468.204,110.902,2,Vanilla Coffee
+SaveOnFoods,10.417,310.78,2,Dark Roast Coffee
+Metro,275.813,130.281,11,Dark Roast Coffee
+SaveOnFoods,372.254,383.202,11,Caramel Coffee
+Metro,292.9,128.57,8,Dark Roast Coffee
+Metro,306.591,465.696,10,Dark Roast Coffee
+Metro,439.081,35.954,5,Vanilla Coffee
+SaveOnFoods,184.578,651.93,7,Vanilla Coffee
+Metro,46.386,560.753,12,Caramel Coffee
+Metro,170.785,12.029,5,Dark Roast Coffee
+Metro,234.529,278.129,3,Espresso Coffee
+Metro,374.713,704.49,11,Vanilla Coffee
+SaveOnFoods,490.851,234.363,10,Espresso Coffee
+SaveOnFoods,354.216,122.704,7,Dark Roast Coffee
+Metro,445.594,114.341,8,Dark Roast Coffee
+SaveOnFoods,465.824,961.776,4,Decaf Coffee
+Metro,8.757,408.342,4,Decaf Coffee
+SaveOnFoods,310.048,136.656,7,Decaf Coffee
+SaveOnFoods,251.208,877.815,9,Caramel Coffee
+SaveOnFoods,75.928,895.187,1,Decaf Coffee
+SaveOnFoods,184.967,457.091,7,Vanilla Coffee
+Metro,28.565,243.371,4,Caramel Coffee
+Metro,189.904,946.781,6,Caramel Coffee
+SaveOnFoods,113.706,576.968,3,Caramel Coffee
+Metro,389.022,4.187,11,Decaf Coffee
+SaveOnFoods,456.094,422.887,10,Vanilla Coffee
+Metro,123.627,227.054,9,Vanilla Coffee
+SaveOnFoods,244.04,715.056,3,Decaf Coffee
+Metro,231.665,450.734,1,Dark Roast Coffee
+Metro,162.688,416.66,9,Vanilla Coffee
+SaveOnFoods,158.806,110.029,3,Espresso Coffee
+SaveOnFoods,214.93,597.221,5,Vanilla Coffee
+SaveOnFoods,370.212,920.335,12,Vanilla Coffee
+SaveOnFoods,217.641,763.478,2,Espresso Coffee
+Metro,342.109,835.937,4,Decaf Coffee
+Metro,177.936,880.301,9,Vanilla Coffee
+SaveOnFoods,244.088,714.202,6,Dark Roast Coffee
+Metro,76.338,205.037,3,Vanilla Coffee
+SaveOnFoods,480.839,717.677,7,Caramel Coffee
+SaveOnFoods,351.979,300.894,6,Caramel Coffee
+Metro,97.299,894.252,5,Caramel Coffee
+Metro,30.907,794.946,11,Caramel Coffee
+Metro,398.091,232.282,10,Espresso Coffee
+Metro,109.02,417.505,8,Caramel Coffee
+Metro,117.54,965.126,5,Dark Roast Coffee
+Metro,488.915,420.244,7,Vanilla Coffee
+SaveOnFoods,4.748,330.895,1,Vanilla Coffee
+SaveOnFoods,281.208,878.127,5,Decaf Coffee
+SaveOnFoods,173.661,415.571,6,Dark Roast Coffee
+Metro,144.025,713.839,7,Decaf Coffee
+Metro,320.355,948.275,10,Dark Roast Coffee
+SaveOnFoods,373.539,666.44,12,Decaf Coffee
+Metro,103.328,418.205,4,Dark Roast Coffee
+Metro,344.317,897.707,1,Caramel Coffee
+SaveOnFoods,480.49,786.872,1,Espresso Coffee
+Metro,346.676,58.624,8,Espresso Coffee
+Metro,41.232,193.444,11,Decaf Coffee
+SaveOnFoods,432.846,197.88,6,Vanilla Coffee
+SaveOnFoods,302.202,993.063,1,Caramel Coffee
+SaveOnFoods,376.791,462.71,7,Dark Roast Coffee
+SaveOnFoods,295.903,748.83,6,Caramel Coffee
+SaveOnFoods,477.662,662.016,2,Decaf Coffee
+SaveOnFoods,299.728,415.683,6,Decaf Coffee
+Metro,231.646,143.407,6,Espresso Coffee
+SaveOnFoods,350.199,842.637,1,Decaf Coffee
+Metro,133.401,101.132,12,Espresso Coffee
+SaveOnFoods,233.991,939.408,11,Dark Roast Coffee
+SaveOnFoods,343.769,5.792,5,Decaf Coffee
+Metro,285.914,222.576,11,Caramel Coffee
+Metro,294.745,322.746,3,Caramel Coffee
+SaveOnFoods,219.435,585.219,1,Decaf Coffee
+Metro,459.088,547.517,10,Dark Roast Coffee
+SaveOnFoods,327.943,75.813,8,Decaf Coffee
+SaveOnFoods,428.343,924.812,2,Vanilla Coffee
+Metro,468.176,491.374,7,Espresso Coffee
+SaveOnFoods,319.888,277.128,7,Decaf Coffee
+SaveOnFoods,146.703,412.078,3,Decaf Coffee
+SaveOnFoods,260.664,982.184,9,Caramel Coffee
+Metro,41.639,449.92,5,Decaf Coffee
+SaveOnFoods,279.741,350.871,1,Caramel Coffee
+SaveOnFoods,15.152,343.544,10,Decaf Coffee
+Metro,441.008,141.971,4,Decaf Coffee
+SaveOnFoods,69.588,52.004,10,Espresso Coffee
+Metro,100.047,166.567,7,Caramel Coffee
+SaveOnFoods,252.323,947.324,2,Caramel Coffee
+SaveOnFoods,412.208,441.757,5,Vanilla Coffee
+SaveOnFoods,233.079,400.209,11,Espresso Coffee
+SaveOnFoods,34.663,153.838,12,Espresso Coffee
+Metro,204.01,533.434,7,Vanilla Coffee
+Metro,360.453,712.077,8,Decaf Coffee
+SaveOnFoods,94.861,786.399,7,Caramel Coffee
+Metro,282.584,227.732,1,Vanilla Coffee
+Metro,290.06,657.918,2,Decaf Coffee
+SaveOnFoods,256.972,568.973,8,Decaf Coffee
+Metro,330.485,590.075,6,Espresso Coffee
+SaveOnFoods,41.824,24.579,12,Vanilla Coffee
+Metro,66.58,187.597,4,Dark Roast Coffee
+Metro,326.804,82.63,6,Vanilla Coffee
+SaveOnFoods,333.701,319.367,3,Decaf Coffee
+SaveOnFoods,498.403,222.363,4,Caramel Coffee
+SaveOnFoods,253.395,275.233,1,Caramel Coffee
+SaveOnFoods,56.819,63.497,5,Vanilla Coffee
+SaveOnFoods,205.981,382.377,9,Vanilla Coffee
+SaveOnFoods,480.367,334.053,8,Decaf Coffee
+SaveOnFoods,202.435,903.55,2,Vanilla Coffee
+SaveOnFoods,250.847,196.724,10,Caramel Coffee
+Metro,72.082,912.217,7,Vanilla Coffee
+Metro,492.837,287.656,11,Decaf Coffee
+SaveOnFoods,193.891,381.522,2,Caramel Coffee
+SaveOnFoods,64.383,78.165,5,Dark Roast Coffee
+SaveOnFoods,15.755,81.234,9,Decaf Coffee
+SaveOnFoods,10.615,633.331,6,Decaf Coffee
+SaveOnFoods,414.853,681.711,3,Vanilla Coffee
+Metro,355.691,207.248,5,Dark Roast Coffee
+SaveOnFoods,360.65,224.293,6,Decaf Coffee
+Metro,356.29,659.686,4,Dark Roast Coffee
+SaveOnFoods,292.853,898.516,7,Caramel Coffee
+Metro,384.026,530.966,9,Dark Roast Coffee
+Metro,223.525,158.436,4,Decaf Coffee
+SaveOnFoods,340.771,362.92,7,Vanilla Coffee
+SaveOnFoods,409.02,926.918,11,Dark Roast Coffee
+SaveOnFoods,13.706,699.521,3,Dark Roast Coffee
+Metro,408.559,758.045,7,Espresso Coffee
+SaveOnFoods,7.557,531.703,8,Dark Roast Coffee
+Metro,233.785,672.397,3,Decaf Coffee
+Metro,419.329,463.528,5,Espresso Coffee
+SaveOnFoods,397.572,35.996,11,Dark Roast Coffee
+Metro,422.93,405.085,10,Dark Roast Coffee
+Metro,69.969,879.213,3,Dark Roast Coffee
+SaveOnFoods,88.752,882.792,8,Espresso Coffee
+Metro,276.955,690.079,6,Espresso Coffee
+Metro,458.046,123.114,8,Decaf Coffee
+Metro,387.522,293.889,5,Espresso Coffee
+SaveOnFoods,460.266,957.472,11,Espresso Coffee
+Metro,380.122,422.606,12,Espresso Coffee
+SaveOnFoods,433.095,711.017,6,Espresso Coffee
+SaveOnFoods,146.025,856.444,8,Dark Roast Coffee
+SaveOnFoods,58.878,509.077,11,Decaf Coffee
+SaveOnFoods,24.368,8.722,1,Vanilla Coffee
+SaveOnFoods,69.576,978.503,12,Dark Roast Coffee
+Metro,292.21,346.359,5,Espresso Coffee
+SaveOnFoods,406.554,488.652,3,Espresso Coffee
+SaveOnFoods,333.503,1.714,5,Vanilla Coffee
+Metro,125.79,974.721,4,Decaf Coffee
+SaveOnFoods,124.228,319.845,3,Vanilla Coffee
+SaveOnFoods,178.152,345.97,1,Espresso Coffee
+Metro,146.344,932.703,9,Decaf Coffee
+Metro,387.851,934.089,12,Decaf Coffee
+Metro,152.885,463.016,8,Decaf Coffee
+SaveOnFoods,92.502,157.403,7,Caramel Coffee
+SaveOnFoods,288.238,507.249,8,Espresso Coffee
+Metro,395.967,845.94,11,Espresso Coffee
+SaveOnFoods,384.458,340.035,4,Caramel Coffee
+SaveOnFoods,39.033,230.692,1,Espresso Coffee
+Metro,481.46,723.173,6,Espresso Coffee
+Metro,49.475,218.445,11,Decaf Coffee
+SaveOnFoods,2.809,271.628,11,Caramel Coffee
+SaveOnFoods,314.382,410.797,8,Decaf Coffee
+SaveOnFoods,93.817,342.631,1,Decaf Coffee
+SaveOnFoods,59.379,212.757,5,Dark Roast Coffee
+Metro,379.658,306.937,12,Caramel Coffee
+SaveOnFoods,389.808,611.515,7,Caramel Coffee
+Metro,448.317,836.946,3,Caramel Coffee
+Metro,452.027,80.586,7,Vanilla Coffee
+Metro,184.946,74.914,5,Dark Roast Coffee
+SaveOnFoods,466.192,898.072,7,Espresso Coffee
+SaveOnFoods,27.542,262.165,11,Vanilla Coffee
+Metro,404.325,181.752,9,Vanilla Coffee
+SaveOnFoods,443.519,376.195,10,Decaf Coffee
+SaveOnFoods,89.427,915.096,2,Dark Roast Coffee
+SaveOnFoods,168.461,433.905,8,Dark Roast Coffee
+Metro,366.864,968.798,9,Dark Roast Coffee
+SaveOnFoods,130.348,521.528,6,Decaf Coffee
+SaveOnFoods,72.915,854.397,3,Vanilla Coffee
+SaveOnFoods,247.182,472.779,4,Dark Roast Coffee
+Metro,159.742,182.839,5,Caramel Coffee
+SaveOnFoods,78.448,976.615,4,Dark Roast Coffee
+Metro,135.035,996.811,8,Vanilla Coffee
+Metro,98.896,954.678,10,Decaf Coffee
+SaveOnFoods,466.908,656.73,7,Dark Roast Coffee
+SaveOnFoods,31.752,316.53,7,Caramel Coffee
+SaveOnFoods,286.59,311.815,5,Dark Roast Coffee
+SaveOnFoods,209.956,183.558,9,Vanilla Coffee
+Metro,301.129,836.336,12,Dark Roast Coffee
+Metro,340.502,522.23,7,Vanilla Coffee
+SaveOnFoods,273.823,83.386,9,Espresso Coffee
+SaveOnFoods,305.351,683.046,9,Dark Roast Coffee
+SaveOnFoods,473.799,314.238,9,Dark Roast Coffee
+Metro,341.055,815.694,1,Espresso Coffee
+SaveOnFoods,154.716,169.152,2,Vanilla Coffee
+SaveOnFoods,269.706,14.062,11,Espresso Coffee
+Metro,1.432,727.973,12,Dark Roast Coffee
+SaveOnFoods,62.448,175.196,7,Decaf Coffee
+SaveOnFoods,225.153,302.555,7,Espresso Coffee
+SaveOnFoods,437.423,391.19,5,Espresso Coffee
+Metro,332.09,479.139,7,Espresso Coffee
+SaveOnFoods,205.212,274.007,3,Caramel Coffee
+Metro,498.139,598.242,6,Dark Roast Coffee
+Metro,23.152,375.412,2,Dark Roast Coffee
+SaveOnFoods,195.113,950.633,4,Caramel Coffee
+Metro,115.233,565.427,6,Dark Roast Coffee
+SaveOnFoods,371.135,829.067,4,Caramel Coffee
+Metro,203.551,726.078,6,Caramel Coffee
+SaveOnFoods,75.958,297.721,1,Espresso Coffee
+Metro,190.488,172.266,3,Dark Roast Coffee
+Metro,29.749,789.825,11,Caramel Coffee
+SaveOnFoods,362.725,254.565,7,Vanilla Coffee
+Metro,202.3,414.518,11,Caramel Coffee
+Metro,398.127,988.786,9,Dark Roast Coffee
+Metro,213.562,76.009,1,Dark Roast Coffee
+Metro,141.549,143.741,5,Caramel Coffee
+SaveOnFoods,321.184,337.567,6,Espresso Coffee
+Metro,430.493,112.859,10,Dark Roast Coffee
+Metro,236.705,411.267,11,Vanilla Coffee
+Metro,217.522,522.805,9,Decaf Coffee
+Metro,149.637,235.501,1,Dark Roast Coffee
+SaveOnFoods,363.604,493.151,11,Dark Roast Coffee
+SaveOnFoods,112.937,859.48,1,Vanilla Coffee
+Metro,123.272,893.497,12,Caramel Coffee
+SaveOnFoods,112.661,579.467,4,Espresso Coffee
+SaveOnFoods,169.287,401.325,1,Espresso Coffee
+SaveOnFoods,183.959,732.39,2,Dark Roast Coffee
+SaveOnFoods,40.046,392.558,11,Caramel Coffee
+SaveOnFoods,3.152,225.959,8,Caramel Coffee
+Metro,299.323,100.065,10,Caramel Coffee
+Metro,260.945,306.24,11,Decaf Coffee
+SaveOnFoods,56.7,627.943,12,Decaf Coffee
+SaveOnFoods,114.181,108.352,5,Caramel Coffee
+SaveOnFoods,248.964,50.366,8,Espresso Coffee
+SaveOnFoods,14.167,702.802,3,Caramel Coffee
+SaveOnFoods,493.698,202.567,1,Caramel Coffee
+Metro,17.72,807.781,1,Dark Roast Coffee
+Metro,411.521,859.046,12,Dark Roast Coffee
+SaveOnFoods,474.566,973.102,2,Dark Roast Coffee
+SaveOnFoods,206.459,507.886,6,Espresso Coffee
+SaveOnFoods,248.353,637.639,5,Decaf Coffee
+Metro,174.99,704.257,12,Decaf Coffee
+Metro,305.021,834.197,12,Decaf Coffee
+Metro,15.985,63.43,2,Decaf Coffee
+SaveOnFoods,375.089,908.933,2,Dark Roast Coffee
+SaveOnFoods,307.473,423.655,6,Vanilla Coffee
+SaveOnFoods,261.615,405.532,12,Vanilla Coffee
+SaveOnFoods,426.45,739.11,9,Decaf Coffee
+Metro,226.09,547.783,7,Caramel Coffee
+SaveOnFoods,191.302,563.124,7,Decaf Coffee
+SaveOnFoods,252.397,958.703,10,Dark Roast Coffee
+SaveOnFoods,68.94,152.697,12,Dark Roast Coffee
+SaveOnFoods,309.283,812.777,2,Espresso Coffee
+SaveOnFoods,151.659,582.955,2,Dark Roast Coffee
+Metro,352.161,469.16,2,Caramel Coffee
+Metro,94.886,324.654,7,Dark Roast Coffee
+SaveOnFoods,423.842,938.463,3,Decaf Coffee
+Metro,446.703,214.661,4,Dark Roast Coffee
+SaveOnFoods,375.861,394.98,5,Caramel Coffee
+SaveOnFoods,93.289,807.566,1,Dark Roast Coffee
+Metro,379.412,939.721,2,Vanilla Coffee
+Metro,226.819,587.423,11,Caramel Coffee
+Metro,202.024,167.172,1,Vanilla Coffee
+Metro,275.016,785.624,5,Vanilla Coffee
+Metro,79.182,620.264,1,Dark Roast Coffee
+Metro,260.423,503.293,2,Vanilla Coffee
+Metro,499.438,73.418,8,Espresso Coffee
+SaveOnFoods,97.048,519.968,1,Vanilla Coffee
+Metro,29.144,296.411,10,Vanilla Coffee
+Metro,66.841,859.085,8,Decaf Coffee
+SaveOnFoods,263.378,433.347,3,Vanilla Coffee
+Metro,344.048,53.785,4,Decaf Coffee
+SaveOnFoods,37.626,214.118,9,Vanilla Coffee
+Metro,282.849,69.453,6,Decaf Coffee
+SaveOnFoods,329.048,212.963,10,Vanilla Coffee
+Metro,226.064,852.195,4,Caramel Coffee
+SaveOnFoods,130.625,944.876,6,Vanilla Coffee
+SaveOnFoods,456.076,553.575,9,Espresso Coffee
+Metro,467.826,350.887,7,Dark Roast Coffee
+Metro,182.512,337.425,10,Espresso Coffee
+Metro,81.033,655.947,2,Decaf Coffee
+Metro,160.858,14.255,8,Caramel Coffee
+Metro,497.847,507.123,2,Decaf Coffee
+Metro,326.384,738.877,4,Espresso Coffee
+Metro,62.761,907.845,2,Caramel Coffee
+SaveOnFoods,405.649,54.672,6,Dark Roast Coffee
+SaveOnFoods,169.512,816.634,6,Vanilla Coffee
+SaveOnFoods,348.215,229.04,6,Decaf Coffee
+SaveOnFoods,294.399,598.609,1,Caramel Coffee
+Metro,449.998,923.227,3,Dark Roast Coffee
+SaveOnFoods,377.153,196.387,7,Caramel Coffee
+SaveOnFoods,82.641,456.872,3,Vanilla Coffee
+SaveOnFoods,191.202,275.064,3,Vanilla Coffee
+Metro,201.797,918.516,5,Vanilla Coffee
+Metro,279.876,444.253,7,Decaf Coffee
+SaveOnFoods,124.235,235.68,7,Dark Roast Coffee
+SaveOnFoods,207.507,15.076,11,Caramel Coffee
+Metro,20.259,850.852,8,Decaf Coffee
+Metro,217.821,472.158,8,Caramel Coffee
+SaveOnFoods,471.575,385.093,3,Espresso Coffee
+Metro,253.005,431.619,9,Dark Roast Coffee
+Metro,102.905,888.228,2,Caramel Coffee
+SaveOnFoods,37.037,519.882,6,Caramel Coffee
+Metro,279.801,54.126,4,Dark Roast Coffee
+Metro,370.79,584.442,4,Caramel Coffee
+SaveOnFoods,204.637,334.171,10,Vanilla Coffee
+Metro,428.06,17.103,2,Dark Roast Coffee
+SaveOnFoods,51.224,416.225,10,Caramel Coffee
+SaveOnFoods,148.158,159.805,5,Caramel Coffee
+Metro,490.802,319.907,2,Decaf Coffee
+Metro,222.475,675.899,11,Caramel Coffee
+Metro,69.771,374.897,1,Vanilla Coffee
+SaveOnFoods,65.522,104.853,5,Espresso Coffee
+Metro,386.672,670.93,4,Caramel Coffee
+SaveOnFoods,302.747,133.248,1,Caramel Coffee
+Metro,178.953,340.147,6,Espresso Coffee
+SaveOnFoods,386.774,283.768,3,Dark Roast Coffee
+SaveOnFoods,296.72,602.722,7,Decaf Coffee
+SaveOnFoods,168.038,507.464,6,Espresso Coffee
+SaveOnFoods,399.029,429.704,6,Decaf Coffee
+SaveOnFoods,224.064,451.819,6,Dark Roast Coffee
+Metro,468.072,258.066,11,Espresso Coffee
+SaveOnFoods,216.13,160.499,6,Vanilla Coffee
+SaveOnFoods,208.162,541.675,9,Dark Roast Coffee
+SaveOnFoods,442.654,109.642,4,Dark Roast Coffee
+SaveOnFoods,131.359,916.727,1,Decaf Coffee
+Metro,493.445,38.595,9,Espresso Coffee
+SaveOnFoods,124.676,941.965,11,Espresso Coffee
+Metro,193.4,249.22,5,Espresso Coffee
+SaveOnFoods,280.932,940.146,4,Caramel Coffee
+Metro,8.996,846.047,9,Dark Roast Coffee
+Metro,399.579,472.306,3,Decaf Coffee
+Metro,209.86,835.114,9,Dark Roast Coffee
+SaveOnFoods,315.7,557.242,3,Vanilla Coffee
+SaveOnFoods,51.707,547.98,7,Vanilla Coffee
+Metro,55.537,635.519,10,Caramel Coffee
+Metro,301.867,109.789,1,Dark Roast Coffee
+SaveOnFoods,20.167,276.245,6,Dark Roast Coffee
+SaveOnFoods,52.425,222.433,4,Decaf Coffee
+SaveOnFoods,53.675,208.975,11,Decaf Coffee
+SaveOnFoods,249.665,940.49,10,Caramel Coffee
+Metro,3.922,384.842,11,Dark Roast Coffee
+Metro,123.089,932.244,10,Dark Roast Coffee
+SaveOnFoods,168.297,255.813,9,Caramel Coffee
+Metro,462.567,948.099,4,Dark Roast Coffee
+SaveOnFoods,14.886,985.324,12,Vanilla Coffee
+Metro,5.447,486.144,12,Decaf Coffee
+Metro,393.519,635.09,12,Caramel Coffee
+SaveOnFoods,391.726,398.481,1,Caramel Coffee
+Metro,357.075,951.996,6,Espresso Coffee
+SaveOnFoods,369.506,137.19,6,Espresso Coffee
+SaveOnFoods,167.305,318.848,2,Caramel Coffee
+SaveOnFoods,201.552,663.38,11,Dark Roast Coffee
+SaveOnFoods,182.594,291.246,11,Vanilla Coffee
+SaveOnFoods,231.004,2.073,3,Vanilla Coffee
+SaveOnFoods,443.113,995.271,1,Espresso Coffee
+SaveOnFoods,127.804,858.772,10,Caramel Coffee
+SaveOnFoods,85.636,304.375,12,Espresso Coffee
+SaveOnFoods,209.38,349.572,1,Espresso Coffee
+SaveOnFoods,475.429,440.759,11,Vanilla Coffee
+Metro,241.913,425.29,12,Decaf Coffee
+SaveOnFoods,93.486,868.639,5,Decaf Coffee
+Metro,175.487,540.744,9,Espresso Coffee
+SaveOnFoods,191.971,936.221,3,Caramel Coffee
+Metro,44.481,986.846,5,Dark Roast Coffee
+SaveOnFoods,469.178,905.224,9,Espresso Coffee
+SaveOnFoods,479.31,648.354,4,Decaf Coffee
+Metro,176.269,68.589,5,Vanilla Coffee
+SaveOnFoods,74.835,818.301,8,Caramel Coffee
+Metro,401.349,60.089,1,Vanilla Coffee
+SaveOnFoods,9.905,734.15,5,Caramel Coffee
+SaveOnFoods,367.507,670.624,8,Decaf Coffee
+Metro,421.543,550.099,12,Vanilla Coffee
+Metro,142.46,460.315,8,Caramel Coffee
+Metro,49.998,880.183,9,Caramel Coffee
+Metro,176.772,264.326,4,Decaf Coffee
+SaveOnFoods,423.73,592.531,11,Decaf Coffee
+Metro,280.102,504.087,3,Dark Roast Coffee
+SaveOnFoods,484.523,411.852,2,Dark Roast Coffee
+SaveOnFoods,178.959,632.304,12,Espresso Coffee
+Metro,365.616,123.02,3,Decaf Coffee
+Metro,400.463,56.616,11,Espresso Coffee
+Metro,34.867,840.024,6,Caramel Coffee
+SaveOnFoods,353.49,301.296,12,Dark Roast Coffee
+Metro,46.611,146.916,6,Vanilla Coffee
+SaveOnFoods,125.187,269.179,3,Caramel Coffee
+SaveOnFoods,318.882,521.996,1,Espresso Coffee
+Metro,90.575,602.619,6,Vanilla Coffee
+SaveOnFoods,319.925,334.205,11,Dark Roast Coffee
+SaveOnFoods,236.899,33.899,9,Dark Roast Coffee
+Metro,36.393,969.715,5,Dark Roast Coffee
+Metro,25.441,639.736,2,Decaf Coffee
+SaveOnFoods,486.843,1.134,6,Vanilla Coffee
+Metro,380.052,140.66,1,Decaf Coffee
+Metro,340.801,33.001,4,Dark Roast Coffee
+Metro,309.631,80.655,12,Decaf Coffee
+Metro,177.007,114.542,8,Caramel Coffee
+Metro,397.166,596.136,1,Vanilla Coffee
+SaveOnFoods,258.681,960.105,1,Vanilla Coffee
+Metro,275.352,114.161,6,Decaf Coffee
+Metro,129.642,73.896,7,Caramel Coffee
+SaveOnFoods,87.925,775.301,3,Decaf Coffee
+Metro,489.017,113.12,9,Espresso Coffee
+SaveOnFoods,312.177,612.429,6,Decaf Coffee
+SaveOnFoods,390.028,980.269,5,Caramel Coffee
+Metro,201.412,148.87,7,Espresso Coffee
+SaveOnFoods,254.915,505.661,10,Dark Roast Coffee
+Metro,197.24,757.13,12,Vanilla Coffee
+Metro,309.626,18.976,2,Vanilla Coffee
+Metro,199.064,739.415,3,Decaf Coffee
+Metro,425.852,157.021,7,Espresso Coffee
+SaveOnFoods,279.686,728.983,1,Vanilla Coffee
+SaveOnFoods,97.014,180.178,9,Caramel Coffee
+Metro,242.047,335.611,7,Espresso Coffee
+Metro,203.177,899.218,8,Dark Roast Coffee
+SaveOnFoods,444.836,72.602,4,Espresso Coffee
+Metro,286.447,761.906,7,Vanilla Coffee
+Metro,61.512,88.806,10,Vanilla Coffee
+Metro,452.895,80.181,3,Dark Roast Coffee
+SaveOnFoods,5.128,734.065,6,Vanilla Coffee
+Metro,135.015,252.167,7,Caramel Coffee
+Metro,15.43,161.288,8,Espresso Coffee
+Metro,61.3,564.081,4,Dark Roast Coffee
+SaveOnFoods,400.98,435.211,11,Caramel Coffee
+SaveOnFoods,106.141,822.38,9,Decaf Coffee
+Metro,394.916,49.367,1,Espresso Coffee
+SaveOnFoods,197.269,328.433,8,Caramel Coffee
+Metro,96.127,803.356,2,Caramel Coffee
+SaveOnFoods,169.355,563.679,3,Decaf Coffee
+SaveOnFoods,470.534,274.237,10,Espresso Coffee
+SaveOnFoods,371.38,691.662,10,Dark Roast Coffee
+SaveOnFoods,334.412,570.641,3,Decaf Coffee
+Metro,38.859,857.947,3,Decaf Coffee
+Metro,46.56,56.23,2,Dark Roast Coffee
+SaveOnFoods,62.739,351.895,4,Espresso Coffee
+Metro,419.43,978.131,10,Decaf Coffee
+SaveOnFoods,110.081,430.63,6,Dark Roast Coffee
+SaveOnFoods,394.993,424.578,12,Decaf Coffee
+SaveOnFoods,100.379,479.021,3,Decaf Coffee
+Metro,235.754,24.32,10,Decaf Coffee
+Metro,191.797,591.023,6,Caramel Coffee
+SaveOnFoods,277.143,41.708,1,Vanilla Coffee
+Metro,485.479,268.359,5,Espresso Coffee
+Metro,482.922,222.459,2,Vanilla Coffee
+Metro,185.33,899.887,8,Decaf Coffee
+SaveOnFoods,50.048,782.984,10,Dark Roast Coffee
+Metro,71.583,453.217,10,Caramel Coffee
+SaveOnFoods,225.765,703.962,7,Caramel Coffee
+SaveOnFoods,353.666,834.16,1,Caramel Coffee
+SaveOnFoods,149.556,786.43,2,Decaf Coffee
+SaveOnFoods,186.821,780.033,8,Decaf Coffee
+SaveOnFoods,81.92,934.972,3,Espresso Coffee
+SaveOnFoods,75.888,911.002,11,Decaf Coffee
+SaveOnFoods,393.959,690.359,2,Decaf Coffee
+Metro,162.75,882.588,6,Decaf Coffee
+Metro,223.299,893.49,5,Caramel Coffee
+SaveOnFoods,259.223,439.299,11,Decaf Coffee
+Metro,461.422,930.517,1,Dark Roast Coffee
+Metro,324.656,111.544,3,Vanilla Coffee
+SaveOnFoods,398.379,263.063,12,Vanilla Coffee
+Metro,153.351,981.303,1,Caramel Coffee
+SaveOnFoods,303.846,954.563,3,Caramel Coffee
+SaveOnFoods,21.388,404.466,1,Vanilla Coffee
+Metro,353.269,569.984,10,Espresso Coffee
+SaveOnFoods,230.375,178.037,11,Vanilla Coffee
+SaveOnFoods,315.262,262.181,6,Decaf Coffee
+Metro,79.088,127.557,3,Caramel Coffee
+Metro,430.863,727.444,2,Espresso Coffee
+Metro,62.519,663.994,5,Caramel Coffee
+Metro,15.97,129.517,9,Dark Roast Coffee
+SaveOnFoods,357.003,492.633,8,Vanilla Coffee
+SaveOnFoods,358.782,296.86,12,Caramel Coffee
+Metro,228.362,887.646,6,Espresso Coffee
+Metro,33.287,320.284,5,Espresso Coffee
+SaveOnFoods,68.451,106.481,1,Decaf Coffee
+SaveOnFoods,12.9,656.771,3,Vanilla Coffee
+Metro,3.022,285.751,3,Vanilla Coffee
+Metro,334.013,946.054,10,Vanilla Coffee
+SaveOnFoods,89.991,29.281,8,Vanilla Coffee
+Metro,208.5,805.76,10,Decaf Coffee
+Metro,48.01,439.28,8,Vanilla Coffee
+Metro,444.906,921.11,1,Decaf Coffee
+SaveOnFoods,297.628,176.319,12,Espresso Coffee
+SaveOnFoods,313.57,517.91,2,Decaf Coffee
+SaveOnFoods,319.802,331.124,2,Dark Roast Coffee
+SaveOnFoods,83.008,595.502,9,Espresso Coffee
+SaveOnFoods,346.507,958.491,1,Vanilla Coffee
+SaveOnFoods,63.93,72.923,11,Vanilla Coffee
+SaveOnFoods,217.287,869.323,6,Dark Roast Coffee
+Metro,235.688,474.314,11,Espresso Coffee
+Metro,407.945,525.651,3,Vanilla Coffee
+SaveOnFoods,121.897,279.365,8,Dark Roast Coffee
+Metro,84.157,358.604,2,Caramel Coffee
+Metro,60.716,927.781,1,Espresso Coffee
+SaveOnFoods,183.933,845.091,5,Vanilla Coffee
+Metro,227.349,142.82,2,Caramel Coffee
+Metro,461.44,256.159,4,Espresso Coffee
+Metro,198.474,744.971,2,Caramel Coffee
+SaveOnFoods,25.665,12.573,1,Dark Roast Coffee
+Metro,325.893,736.595,5,Espresso Coffee
+SaveOnFoods,219.889,871.408,7,Vanilla Coffee
+SaveOnFoods,443.178,791.696,5,Decaf Coffee
+Metro,54.363,795.645,1,Decaf Coffee
+Metro,11.948,825.376,6,Decaf Coffee
+SaveOnFoods,485.449,385.882,4,Decaf Coffee
+Metro,248.608,798.723,7,Espresso Coffee
+SaveOnFoods,383.746,916.407,7,Espresso Coffee
+SaveOnFoods,291.694,875.714,9,Dark Roast Coffee
+SaveOnFoods,494.279,578.232,6,Dark Roast Coffee
+SaveOnFoods,250.56,720.144,6,Caramel Coffee
+SaveOnFoods,208.32,832.336,5,Espresso Coffee
+SaveOnFoods,471.403,656.442,8,Decaf Coffee
+SaveOnFoods,167.444,512.419,3,Dark Roast Coffee
+SaveOnFoods,285.605,808.176,4,Espresso Coffee
+Metro,433.052,807.26,3,Vanilla Coffee
+SaveOnFoods,342.731,598.828,10,Espresso Coffee
+SaveOnFoods,451.339,845.684,3,Dark Roast Coffee
+SaveOnFoods,397.594,52.431,7,Caramel Coffee
+SaveOnFoods,421.842,832.413,8,Decaf Coffee
+Metro,468.308,914.885,1,Dark Roast Coffee
+SaveOnFoods,224.964,999.516,5,Vanilla Coffee
+Metro,484.548,71.919,9,Decaf Coffee
+Metro,250.701,712.882,2,Decaf Coffee
+Metro,221.128,822.318,1,Dark Roast Coffee
+SaveOnFoods,316.632,16.689,7,Caramel Coffee
+Metro,431.87,476.24,4,Espresso Coffee
+Metro,56.16,283.597,4,Vanilla Coffee
+Metro,117.779,889.301,10,Espresso Coffee
+Metro,463.475,843.28,12,Caramel Coffee
+Metro,4.222,305.553,10,Espresso Coffee
+Metro,458.787,247.885,6,Dark Roast Coffee
+SaveOnFoods,224.28,737.599,1,Caramel Coffee
+SaveOnFoods,82.589,631.186,9,Espresso Coffee
+SaveOnFoods,203.561,648.461,5,Espresso Coffee
+Metro,247.375,384.63,6,Decaf Coffee
+Metro,67.077,774.208,4,Espresso Coffee
+Metro,140.599,933.401,3,Espresso Coffee
+Metro,224.444,401.174,8,Espresso Coffee
+SaveOnFoods,150.806,305.842,7,Dark Roast Coffee
+SaveOnFoods,30.59,309.835,8,Caramel Coffee
+Metro,219.58,877.345,10,Decaf Coffee
+SaveOnFoods,161.119,879.767,10,Decaf Coffee
+SaveOnFoods,463.897,977.3,7,Espresso Coffee
+Metro,129.203,373.836,2,Espresso Coffee
+Metro,57.392,910.459,8,Espresso Coffee
+SaveOnFoods,268.925,33.555,9,Caramel Coffee
+SaveOnFoods,306.676,16.614,7,Dark Roast Coffee
+Metro,51.481,711.976,8,Dark Roast Coffee
+SaveOnFoods,402.097,828.727,5,Vanilla Coffee
+Metro,42.123,177.17,4,Decaf Coffee
+Metro,141.663,833.55,3,Caramel Coffee
+Metro,292.705,594.183,10,Caramel Coffee
+SaveOnFoods,240.887,876.064,11,Espresso Coffee
+SaveOnFoods,173.492,819.968,8,Dark Roast Coffee
+SaveOnFoods,253.386,893.242,6,Decaf Coffee
+SaveOnFoods,257.1,724.674,5,Dark Roast Coffee
+SaveOnFoods,3.149,431.393,11,Caramel Coffee
+Metro,438.108,133.552,7,Vanilla Coffee
+SaveOnFoods,60.298,208.531,5,Espresso Coffee
+SaveOnFoods,493.499,469.384,7,Espresso Coffee
+Metro,276.107,752.515,11,Caramel Coffee
+Metro,162.837,676.241,9,Espresso Coffee
+Metro,234.437,29.348,6,Vanilla Coffee
+SaveOnFoods,159.438,615.568,6,Espresso Coffee
+Metro,477.813,887.198,10,Caramel Coffee
+SaveOnFoods,404.729,722.371,8,Dark Roast Coffee
+Metro,258.514,489.082,10,Dark Roast Coffee
+Metro,147.904,659.203,5,Vanilla Coffee
+Metro,417.724,412.752,2,Espresso Coffee
+SaveOnFoods,61.79,482.54,4,Caramel Coffee
+SaveOnFoods,439.866,937.944,7,Caramel Coffee
+Metro,99.254,976.108,3,Vanilla Coffee
+SaveOnFoods,275.31,345.746,3,Caramel Coffee
+SaveOnFoods,25.318,522.505,6,Decaf Coffee
+Metro,89.398,741.699,6,Espresso Coffee
+SaveOnFoods,418.799,231.227,6,Espresso Coffee
+SaveOnFoods,89.946,384,11,Dark Roast Coffee
+SaveOnFoods,3.543,96.754,8,Decaf Coffee
+SaveOnFoods,455.861,852.804,5,Caramel Coffee
+Metro,189.529,666.285,7,Vanilla Coffee
+SaveOnFoods,103.997,294.592,1,Decaf Coffee
+Metro,243.73,671.806,5,Vanilla Coffee
+SaveOnFoods,99.7,913.874,12,Dark Roast Coffee
+SaveOnFoods,294.892,945.679,6,Vanilla Coffee
+Metro,425.142,972.118,9,Espresso Coffee
+Metro,188.847,871.36,1,Caramel Coffee
+Metro,248.25,708.069,3,Decaf Coffee
+Metro,52.188,468.096,8,Dark Roast Coffee
+SaveOnFoods,267.213,912.026,2,Caramel Coffee
+Metro,234.943,523.072,2,Dark Roast Coffee
+SaveOnFoods,403.548,218.484,6,Dark Roast Coffee
+Metro,398.243,329.809,6,Espresso Coffee
+Metro,452.528,649.403,11,Vanilla Coffee
+SaveOnFoods,305.624,239.405,6,Caramel Coffee
+Metro,359.257,897.09,4,Espresso Coffee
+Metro,482.928,226.777,7,Vanilla Coffee
+Metro,272.926,125.667,8,Dark Roast Coffee
+SaveOnFoods,353.281,144.461,7,Espresso Coffee
+SaveOnFoods,277.319,140.036,11,Espresso Coffee
+SaveOnFoods,32.402,342.065,10,Espresso Coffee
+SaveOnFoods,121.357,86.881,8,Decaf Coffee
+SaveOnFoods,285.985,663.949,9,Dark Roast Coffee
+Metro,201.565,961.402,4,Decaf Coffee
+Metro,311.242,352.617,11,Caramel Coffee
+Metro,401.743,389.149,1,Dark Roast Coffee
+Metro,137.772,23.982,10,Espresso Coffee
+SaveOnFoods,152.306,370.098,7,Decaf Coffee
+SaveOnFoods,151.945,233.154,9,Dark Roast Coffee
+Metro,230.429,935.702,7,Espresso Coffee
+SaveOnFoods,10.641,657.072,4,Caramel Coffee
+Metro,59.641,586.903,7,Dark Roast Coffee
+SaveOnFoods,271.24,354.551,6,Espresso Coffee
+Metro,40.951,496.388,2,Espresso Coffee
+SaveOnFoods,122.038,479.501,1,Vanilla Coffee
+SaveOnFoods,272.541,202.911,6,Decaf Coffee
+SaveOnFoods,315.479,651.453,9,Vanilla Coffee
+Metro,281.011,893.445,7,Espresso Coffee
+SaveOnFoods,215.098,961.046,3,Dark Roast Coffee
+Metro,358.171,935.607,11,Decaf Coffee
+SaveOnFoods,68.401,365.192,3,Espresso Coffee
+Metro,432.771,25.834,11,Vanilla Coffee
+SaveOnFoods,421.541,632.53,7,Dark Roast Coffee
+Metro,245.371,141.644,11,Dark Roast Coffee
+Metro,297.37,690.46,4,Espresso Coffee
+SaveOnFoods,278.268,183.348,12,Dark Roast Coffee
+SaveOnFoods,270.679,957.408,8,Caramel Coffee
+SaveOnFoods,59.767,753.566,10,Dark Roast Coffee
+Metro,252.737,565.075,9,Vanilla Coffee
+Metro,399.187,17.396,10,Espresso Coffee
+SaveOnFoods,273.933,295.464,12,Vanilla Coffee
+SaveOnFoods,308.751,411.77,5,Caramel Coffee
+SaveOnFoods,69.156,567.438,12,Caramel Coffee
+SaveOnFoods,142.066,178.942,1,Dark Roast Coffee
+Metro,287.461,669.252,8,Espresso Coffee
+Metro,294.507,631.985,2,Dark Roast Coffee
+SaveOnFoods,478.204,257.91,3,Espresso Coffee
+Metro,333.88,721.311,4,Dark Roast Coffee
+Metro,284.254,57.126,6,Dark Roast Coffee
+SaveOnFoods,328.63,386.083,11,Espresso Coffee
+SaveOnFoods,337.569,467.439,7,Caramel Coffee
+Metro,405.841,439.931,10,Espresso Coffee
+SaveOnFoods,262.839,113.542,9,Decaf Coffee
+SaveOnFoods,21.394,133.131,5,Decaf Coffee
+SaveOnFoods,66.87,105.972,4,Dark Roast Coffee
+Metro,148.106,103.083,1,Espresso Coffee
+Metro,234.684,175.728,2,Decaf Coffee
+SaveOnFoods,451.094,748.64,9,Espresso Coffee
+Metro,239.346,987.571,4,Dark Roast Coffee
+Metro,278.65,543.808,4,Dark Roast Coffee
+SaveOnFoods,283.544,830.442,1,Vanilla Coffee
+SaveOnFoods,298.273,215.889,9,Vanilla Coffee
+Metro,296.087,142.47,8,Decaf Coffee
+SaveOnFoods,80.088,622.328,3,Decaf Coffee
